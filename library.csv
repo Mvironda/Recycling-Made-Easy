@@ -1,4 +1,5 @@
 Borough,recycling_days,recycling_frequency,general_waste_days,general_waste_frequency,food_waste_days,food_waste_frequency,materials_provided,contact
+Southwark,Tuesday,Weekly,Monday,Weekly,None,None,None,http://www.southwark.gov.uk/
 Lambeth,Tuesday,Weekly,Thursday,Weekly,Thursday,Weekly,2 bins,https://www.lambeth.gov.uk
 Islington,Wednesday,Weekly,Friday,Weekly,By appointment,By appointment,Upon enquiries,https://www.islington.gov.uk/
 Tower Hamlets,Tuesday,Bi-Weekly,Thursday,Weekly,Monday,Weekly,2 bins,http://www.towerhamlets.gov.uk
