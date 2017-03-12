@@ -1,13 +1,12 @@
-Borough,Recycling_days,Recycling_Frequency,General_Waste_days,General_Waste_Frequency,Food_Waste_days,Food_Waste_Frequency,Materials Provided,Contact_Email,Contact_Web
-Southwark,Tuesday,Weekly,Monday,Weekly,None,None,None,enquiries@southwarkcouncil.com,http://www.southwark.gov.uk
-Lambeth,Tuesday,Weekly,Thursday,Weekly,Thursday,Weekly,2 bins,infoservice@lambeth.gov.uk,https://www.lambeth.gov.uk
-Islington,Wednesday,Weekly,Friday,Weekly,By appointment,By appointment,Upon enquiries,enquiries@islington.com,https://www.islington.gov.uk/
-Tower Hamlets,Tuesday,Bi-Weekly,Thursday,Weekly,Monday,Weekly,2 bins,webteam@towerhamlets.gov.uk,http://www.towerhamlets.gov.uk/Home.aspx
-Wandsworth,Thursday,Weekly,Monday to Sunday,Every day,Wednesday,Weekly,3 bins,enquiries@westminstercouncil.com,http://www.wandsworth.gov.uk/
-Westminster,Wednesday,Weekly,Monday,Weekly,Monday and Friday,Twice a week,2 bins,enquiries@wandsworthcouncil.com,https://www.westminster.gov.uk/
-Camden,Monday,Weekly,Monday and Thursday,Twice a week,Tuesday,Bi-Weekly,Upon enquiries,enquiries@camdencouncil.com,https://www.camden.gov.uk
-Greenwich,Thursday,Bi-Weekly,Tuesday,Weekly,Friday,Weekly,2 bins,enquiries@greenwichcouncil.com,http://www.royalgreenwich.gov.uk/
-Hackney,Tuesday,Bi-Weekly,Thursday,Weekly,Monday and Thursday,Twice a week,2 bins,info@hackney.gov.uk,http://www.hackney.gov.uk/
-Hammersmith & Fulham,Monday,Weekly,Monday,Weekly,Thursday,Bi-Weekly,2 bins,environmentalprotection@lbhf.gov.uk,https://www.lbhf.gov.uk/
-Kensington & Chelsea,Tuesday,Bi-Weekly,Thursday,Bi-Weekly,None,None,None,environmentalhealth@rbkc.gov.uk,https://www.rbkc.gov.uk/
-Lewisham,Thursday,Bi-Weekly,Tuesday and Friday,Twice a week,None,None,None,enquiries@lewishamcouncil.com,http://www.lewisham.gov.uk
+Borough,recycling_days,recycling_frequency,general_waste_days,general_waste_frequency,food_waste_days,food_waste_frequency,materials_provided,contact
+Lambeth,Tuesday,Weekly,Thursday,Weekly,Thursday,Weekly,2 bins,https://www.lambeth.gov.uk
+Islington,Wednesday,Weekly,Friday,Weekly,By appointment,By appointment,Upon enquiries,https://www.islington.gov.uk/
+Tower Hamlets,Tuesday,Bi-Weekly,Thursday,Weekly,Monday,Weekly,2 bins,http://www.towerhamlets.gov.uk
+Wandsworth,Thursday,Weekly,Monday to Sunday,Every day,Wednesday,Weekly,3 bins,http://www.wandsworth.gov.uk/
+Westminster,Wednesday,Weekly,Monday,Weekly,Monday and Friday,Twice a week,2 bins,https://www.westminster.gov.uk/
+Camden,Monday,Weekly,Monday and Thursday,Twice a week,Tuesday,Bi-Weekly,Upon enquiries,https://www.camden.gov.uk
+Greenwich,Thursday,Bi-Weekly,Tuesday,Weekly,Friday,Weekly,2 bins,http://www.royalgreenwich.gov.uk/
+Hackney,Tuesday,Bi-Weekly,Thursday,Weekly,Monday and Thursday,Twice a week,2 bins,http://www.hackney.gov.uk/
+Hammersmith & Fulham,Monday,Weekly,Monday,Weekly,Thursday,Bi-Weekly,2 bins,https://www.lbhf.gov.uk/
+Kensington & Chelsea,Tuesday,Bi-Weekly,Thursday,Bi-Weekly,None,None,None,https://www.rbkc.gov.uk/
+Lewisham,Thursday,Bi-Weekly,Tuesday and Friday,Twice a week,None,None,None,http://www.lewisham.gov.uk
