@@ -11,34 +11,34 @@ blockquote {
 }
 
 h1 {
-    font-family: 'Lobster', cursive;
+    font-family: 'Cabin', cursive;
     color: #009933;
     text-align: center;
 }
 
 h2 {
-    font-family: 'Lobster Two', cursive;
+    font-family: 'Cabin', cursive;
     color: #006600;
     text-align: center;
 }
 @media (max-width: @screen-xs) {
     body{font-size: 10px;}
 h3 {
-    font-family: 'Lobster Two', cursive; 
+    font-family: 'Cabin', cursive;
     font-size:40px;
     color: white;
     text-align: center;
 }
 }
 p {
-    font-family: 'Cabin';
+    font-family: 'Roboto';
     font-size: 20px;
     text-align: center;
 }
 
 input {
     font-family: 'Cabin';
-    font-size: 25px;
+    font-size: 15px;
     text-align: center;
 }
 
@@ -48,19 +48,19 @@ button {
     text-align: center;
 }
 
-.about-us { 
+.about-us {
 min-height: 100%;
 padding-top: 50px;
 text-align: center;
 }
 
-.join-us { 
+.join-us {
 min-height: 100%;
 padding-top: 50px;
 text-align: center;
 }
 
-.form { 
+.form {
 min-height: 100%;
 padding-top: 30px;
 text-align: center;
@@ -124,13 +124,13 @@ nav ul {
 }
 
 nav a {
-    font-family: 'Lobster Two', cursive;
+    font-family: 'Cabin', cursive;
     background-color: transparent;
    background: transparent;
    border-color: transparent;
 }
 
-nav li { color: #000 } 
+nav li { color: #000 }
 
 nav li a {
     color:rgb(50,50,50);

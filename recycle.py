@@ -3,10 +3,10 @@ import csv
 borough_data = {}
 
 class BoroughData:
-    def __init__(self, name, recycling_day, frequency, general_waste_days, general_waste_frequency, food_waste_days, food_waste_frequency, materials_provided, contact):
+    def __init__(self, name, recycling_day, recycling_frequency, general_waste_days, general_waste_frequency, food_waste_days, food_waste_frequency, materials_provided, contact):
         self.name = name
         self.recycling_day = recycling_day
-        self.frequency = frequency
+        self.recycling_frequency = recycling_frequency
         self.general_waste_days = general_waste_days
         self.general_waste_frequency = general_waste_frequency
         self.food_waste_days = food_waste_days
@@ -24,7 +24,7 @@ def main():
     stored_borough_data = borough_data.get('')
 
     print stored_borough_data.recycling_day
-    print stored_borough_data.frequency
+    print stored_borough_data.recycling_frequency
     print stored_borough_data.general_waste_days
     print stored_borough_data.general_waste_frequency
     print stored_borough_data.food_waste_days
