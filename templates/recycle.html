@@ -8,7 +8,7 @@
   <meta http-equiv="x-ua-compatible" content="ie=edge">
 
   <link href='bootstrap-3.3.7-dist/css/bootstrap.css' rel='stylesheet'>
-  <link href="main.css" rel="stylesheet">
+  <link href="static/main.css" rel="stylesheet">
   <link href='startbootsrap-scrolling-nav-gh-pages/css/scrolling-nav.css' rel='stylesheet'>
   <script src ='bootstrap-3.3.7-dist/js/bootstrap.js'></script>
   <script src='startbootsrap-scrolling-nav-gh-pages/js/scrolling-nav.js'></script>
@@ -17,15 +17,15 @@
 <link href="https://fonts.googleapis.com/css?family=Cabin|Montserrat|Roboto" rel="stylesheet">
 
 <!-- Favicon -->
-<link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon.png">
-<link rel="icon" type="image/png" href="favicons/favicon-32x32.png" sizes="32x32">
-<link rel="icon" type="image/png" href="favicons/favicon-16x16.png" sizes="16x16">
-<link rel="manifest" href="favicons/manifest.json">
+<link rel="apple-touch-icon" sizes="180x180" href="static/favicons/apple-touch-icon.png">
+<link rel="icon" type="image/png" href="static/favicons/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="static/favicons/favicon-16x16.png" sizes="16x16">
+<link rel="manifest" href="static/favicons/manifest.json">
 <meta name="theme-color" content="#ffffff">
 
   <!--CSS-->
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <link href="main.css" rel="stylesheet">
+  <link href="static/main.css" rel="stylesheet">
   <!--Title-->
   <title>Recycling Made Easy</title>
 
@@ -72,30 +72,45 @@
 
 <div class="col-lg-offset-3 col-lg-6">
    <div class="input-group">
-     <input type="text" class="form-control input-lg" placeholder="type your borough name">
+     <form method="post" action="/boroughsearch">
+     <input type="text" id="name" name="name" class="form-control input-lg" placeholder="type your borough name">
      <span class="input-group-btn">
-       <button class="btn btn-sucess btn-lg" type="button">Go!</button>
+       <button class="btn btn-sucess btn-lg" type="button submit">Go!</button>
      </span>
+   </form>
    </div>
 
-
-
- <h3>{{ recycleday }}</h3>
- <h3>{{ recycling_frequency }}</h3>
- <h3>{{ generalwastedays }}</h3>
- <h3>{{ generalwastefrequency }}</h3>
- <h3>{{ foodwastedays }}</h3>
- <h3>{{ foodwastefrequency }}</h3>
- <h3>{{ materialsprovided }}</h3>
- <h3>{{ contact }}</h3>
+ <h3>Recyling day:</h3>
+    <h4>{{ recycleday }}</h4>
+ <h3>Recycling frequency:</h3>
+   <h4>{{ recyclingfrequency }}</h4>
+ <h3>General waste day:</h3>
+   <h4>{{ generalwastedays }}</h4>
+ <h3>General waste frequency:</h3>
+   <h4>{{ generalwastefrequency }}</h4>
+ <h3>Food waste day:</h3>
+   <h4>{{ foodwastedays }}</h4>
+ <h3>Food waste frequency:</h3>
+   <h4>{{ foodwastefrequency }}</h4>
+ <h3>Materials provided:</h3>
+   <h4>{{ materialsprovided }}</h4>
+ <h3>Contact:</h3>
+   <h4>{{ contact }}</h4>
 </div>
- <br>
- <div class="col-lg-12">
- <img class="img-responsive center-block" src='Images/recycle.jpg' alt="Responsive image" width="200" height="200">
- <br>
-</div>
 
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
  </div>
+ </div>
+ </section>
+
+ <section>
+  <div class="col-lg-12">
+  <img class="img-responsive center-block" src='static/recycle.jpg' alt="Responsive image" width="200" height="200">
+  <br>
  </div>
  </section>
 
@@ -124,7 +139,7 @@
  <div class='row'>
 <div class='col-md-4'>
 <div>
-      <img src='Images/joana.jpeg' class="img-circle center-block" width="200" height="200">
+      <img src='static/joana.jpeg' class="img-circle center-block" width="200" height="200">
      <blockquote>
       <small>Joana Esgalhado, Co-Founder</small>
       <div style="line-height:19.44px; margin-top: 10px">
@@ -137,7 +152,7 @@
 </div>
 <div class='col-md-4'>
  <div>
-      <img src='Images/madeleine.jpg' class="img-circle center-block" width="200" height="200">
+      <img src='static/madeleine.jpg' class="img-circle center-block" width="200" height="200">
       <blockquote>
       <small>Madeleine Vironda, Co-Founder</small>
 	<div style="line-height:19.44px; margin-top: 10px">
@@ -150,7 +165,7 @@
   </div>
   <div class='col-md-4'>
      <div>
-          <img src='Images/Anita.jpg' class="img-circle center-block" width="200" height="200">
+          <img src='static/Anita.jpg' class="img-circle center-block" width="200" height="200">
           <blockquote>
           <small>Anita Tam, Co-Founder</small>
     	<div style="line-height:19.44px; margin-top: 10px">
@@ -172,16 +187,16 @@
 <div class="col-lg-12">
     <div id='social-buttons'>
           <a class='image-link' href='https://twitter.com/hashtag/bees?lang=en-gb' target='_blank'>
-      <img src='Images/Twitter.png' width="50" height="50">
+      <img src='static/Twitter.png' width="50" height="50">
     </a>
       <a class='image-link'>
-      <img src='Images/Facebook.png' width="50" height="50">
+      <img src='static/Facebook.png' width="50" height="50">
     </a>
       <a class='image-link' href='https://www.pinterest.com/explore/honey-bees/' target='_blank'>
-      <img src='Images/Pinterest.png' width="50" height="50">
+      <img src='static/Pinterest.png' width="50" height="50">
     </a>
     </div>
-    <img class="img-responsive center-block" src="Images/Bee-Footer.png" alt="Responsive image">
+    <img class="img-responsive center-block" src="static/Bee-Footer.png" alt="Responsive image">
   </div>
   </div>
   </div>
